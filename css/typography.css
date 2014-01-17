@@ -1,7 +1,9 @@
 /*
   Colour Palette
-  - Dark green: #060 - rgb(0, 100, 0)
-  - Dark red: #600 - rgb(100, 0, 0)
+  - Dark grey - #404040 - rgb(64,64,64)
+  - Dark green #090 - rgb(0,153,0)
+  - Dark blue - #009 - rgb(0,0,153)
+  - Dark red - # 900 - rbg(153,0,0)
  */
 
 html {
@@ -64,10 +66,36 @@ small, .milli {
   line-height: 2.3438;
 }
 
-
 a, a:link {
-	color: #666;
+	color: #rgba(0,0,153,0.5);
 	text-decoration: none;
-	border-bottom: 0.1em solid rgba(0,0,0,0.5);
+	border-bottom: 0.1em solid rgba(0,0,153,0.5);
 	transition: all 250ms linear;
+}
+
+a:visited {
+	color: rgba(0,153,0,0.5);
+	border-bottom-color: rgba(0,153,0,0.5);
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #009;
+	border-bottom-color: rgba(0,0,153,1);
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	position: relative;
+}
+
+ul li:before{
+	content: "• ";
+	color: #090;
+	position: absolute;
+	left: -1em;
 }
