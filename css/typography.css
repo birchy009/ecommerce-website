@@ -16,6 +16,11 @@ blockquote, table, hr {
   margin: 0 0 1.5rem;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica, sans-serif;
+  color: #900;
+}
+
 .yotta {
   font-size: 4.7684rem;
   line-height: 1.2583;
@@ -98,4 +103,80 @@ ul li:before{
 	color: #090;
 	position: absolute;
 	left: -1em;
+}
+
+/*  a, em, strong, i, b, small, s, cite, q, dfn, abbr, time, 
+sup, sub, mark, del, ins, data table, th, td, caption  */
+
+table, th, td {
+	border: 1px solid #000;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+blockquote p {
+	position: relative;
+}
+
+blockquote p:before {
+	content: "“";
+	color: #000;
+	font-size: 3rem;
+	position: absolute;
+	left: -0.5em;
+	top: -0.5em;
+}
+
+blockquote p:after {
+	content: "”";
+	color: #000;
+	font-size: 3rem;
+	position: absolute;
+	right: -0.5em;
+	top: 1em;
+}
+
+sub, sup {
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+dt {
+	font-size: 1.25rem;
+}
+
+cite {
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+caption {
+	font-family: Helvetica, sans-serif;
+	margin-bottom: 0.5rem;
+}
+
+small {
+	font-size: 0.875rem;
+	line-height: 1rem;
+}
+
+ins {
+	padding: 0 0.25rem;
+	background-color: yellow;
+}
+
+del {
+	padding: 0 0.25rem;
+	background-color: #f00;
+	color: #fff;
+}
+
+mark {
+	padding: 0 0.25rem;
+	background-color: #090;
+	color: #fff;
+}
+
+hr {
+	border: 3px single rgba(0,0,0,0.5);
 }
