@@ -180,3 +180,16 @@ mark {
 hr {
 	border: 3px single rgba(0,0,0,0.5);
 }
+
+q:before,
+q:after {
+	content: none;
+}
+
+i {
+	font-style: normal; /* i tag is used for icons, not italics, refer to <em> */
+}
+
+b {
+	font-weight: normal; /* b tag is not for bold, refer to <strong> */
+}
