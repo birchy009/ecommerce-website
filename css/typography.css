@@ -110,6 +110,7 @@ sup, sub, mark, del, ins, data table, th, td, caption  */
 
 table, th, td {
 	border: 1px solid #000;
+	border-collapse: collapse;
 	padding: 0.5rem;
 	text-align: center;
 }
@@ -178,7 +179,7 @@ mark {
 }
 
 hr {
-	border: 3px single rgba(0,0,0,0.5);
+	border: 3px single rgba(0,153,0,0.5);
 }
 
 q:before,
