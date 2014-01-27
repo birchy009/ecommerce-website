@@ -111,8 +111,18 @@ sup, sub, mark, del, ins, data table, th, td, caption  */
 table, th, td {
 	border: 1px solid #000;
 	border-collapse: collapse;
-	padding: 0.5rem;
+	padding: 0.5rem 2rem;
 	text-align: center;
+}
+
+th {
+	background-color: rgba(0,153,0,0.33);
+}
+
+td {
+	background-color: rgba(0,0,153,0.33);
+	color: #fff;
+	font-size: 1.25rem;
 }
 
 blockquote p {
