@@ -1,16 +1,31 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
 .large-bucket {
-	width: 70%;
+	width: 69.5%;
 	display: inline-block;
 }
 
 .large-bucket-bg {
+	width: 100%;
 	background-color: #DDD;
-	padding: 0.5rem;
+	padding: 0.75rem;
+	border-radius: 10px;
+}
+
+.large-bucket p {
+	width: 100%;
+	padding: 0.5rem 0;
+	margin-top: -3rem;
+	padding-left: 1rem;
+	color: #fff;
+	position: absolute;
 }
 
 .side-bar {
-	width: 28%;
-	margin-left: 1%;
+	width: 30%;
 	display: inline-block;
 }
 
@@ -21,7 +36,8 @@
 .small-bucket {
 	background-color: #DDD;
 	max-width: 300px;
-	padding: 0.5rem;
+	padding: 0.75rem;
+	border-radius: 10px;
 }
 
 .small-bucket img,
