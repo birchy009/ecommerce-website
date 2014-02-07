@@ -4,6 +4,9 @@
 
 .unit {
 	float: left;
+	background-color: #777;
+	border-radius: 20px;
+	padding: 1.5rem 0;
 }
 
 .unit-s-1 {

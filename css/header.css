@@ -30,7 +30,7 @@ header h1 {
 	display: inline-block;
 }
 
-/* -----------------------------NAV */
+/* ----------------------------- NAV */
 
 .nav-btn,
 .nav-btn:link,
@@ -82,6 +82,8 @@ header h1 {
 	padding: 0;
 }
 
+/* ------------------------------------------ Media queueries */
+
 @media only screen and (min-width: 60em) {
 	.nav-top {
 		font-size: 1rem;
@@ -95,6 +97,7 @@ header h1 {
 	.nav {
 		width: 100%;
 		margin: 0;
+		padding: 0;
 	}
 	.nav-btn,
 	.nav-btn:link,
@@ -106,11 +109,4 @@ header h1 {
 		border: none;
 		width: 24%;
 	}
-}
-
-.hide-text {
-	display: block;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
 }
