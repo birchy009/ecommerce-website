@@ -1,11 +1,9 @@
 .grid {
-	border: 1px solid red;
 	overflow: hidden;
 }
 
 .unit {
 	float: left;
-	background-color: #fff;
 }
 
 .unit-s-1 {
@@ -25,6 +23,9 @@
 	}
 	.unit-m-1-2 {
 		width: 50%;
+	}
+	.unit-m-2-3 {
+		width: 66.6666%;
 	}
 }
 

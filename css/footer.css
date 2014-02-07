@@ -9,28 +9,19 @@ footer {
 	overflow: hidden;
 }
 
-footer img {
-	width: 100%;
+.logo-foot {
 	float: left;
-}
-
-.left {
-	width: 2.5%;
+	width: 50px;
+	margin: 0.5rem;
 }
 
 .menu {
-	width: 67.5%;
-	margin: 0;
-	padding: 0.75rem;
-	float: left;
-}
-
-.large {
-	width: 30%;
-}
-
-.logo {
-	padding: 0.5rem;
+	width: 40%;
+	margin: 1.5rem auto 0;
+	position: absolute;
+	font-size: 0.5rem;
+	left: 20%;
+	text-align: left;
 }
 
 .menu li {
@@ -57,5 +48,29 @@ footer img {
 }
 
 .right p {
-	float: left;
+	float: right;
+	margin-right: 5%;
+	margin-top: 1.5rem;
+	font-size: 0.5rem;
+}
+
+@media only screen and (min-width: 45em) {
+	.menu {
+		width: 100%;
+		font-size: 0.75rem
+	}
+	.right p {
+		font-size: 0.75rem;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+	.menu {
+		text-align: center;
+		left: 0;
+		font-size: 1rem;
+	}
+	.right p {
+		font-size: 1rem;
+	}
 }

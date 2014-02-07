@@ -1,10 +1,15 @@
 header {
 	padding: 0;
-	margin: 0 0 3rem;
+	margin: 0 0 4.5rem;
 	width: 100%;
 	background-color: rgba(0,153,0,0.5);
 	overflow: hidden;
 	display: inline-block;
+}
+
+header h1 {
+	font-size: 1.5rem;
+	margin-top: 2rem;
 }
 
 .logo {
@@ -25,25 +30,87 @@ header {
 	display: inline-block;
 }
 
-.menu-top {
+/* -----------------------------NAV */
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited {
 	position: absolute;
-	top: 6rem;
-	width: 100%;
-	padding: 0;
-	margin: 0;
+	overflow: hidden;
+	top: 60px;
+	right: 2.5%;
+	height: 30px;
+	width: 30px;
+	background: transparent url(../images/nav-icon.svg) no-repeat 0 0;
+	opacity: 0.5;
+	border-bottom: none;
+}
+
+.nav-top {
+	font-size: 0.5rem;
+	display: block;
+	max-height: 0;
+	overflow: hidden;
+}
+
+.nav-btn[data-state="active"] {
+	background-position: -31px 0;
+}
+
+.nav-top[data-state="expanded"] {
+	max-height: 14rem;
 }
 
 .btn-alt-header {
-	display: inline-block;
+	display: block;
 	padding: 0.5rem 1rem;
 	background-color: #009;
 	background-image: linear-gradient(to bottom, #009, #007);
 	color: #fff;
 	font-weight: bold;
-	width: 24%;
-	margin: 0 0.25%;
+	width: 100%;
+	margin: 0;
+}
+
+.nav {
+	display: block;
+	position: absolute;
+	text-align: center;
+	top: 6rem;
+	width: 25%;
+	right: 0;
+	padding: 0;
 }
 
 @media only screen and (min-width: 60em) {
-	
+	.nav-top {
+		font-size: 1rem;
+		display: inline-block;
+		max-height: 14rem;
+	}
+	header h1 {
+		font-size: 3rem;
+		margin-top: 0.75rem;
+	}
+	.nav {
+		width: 100%;
+		margin: 0;
+	}
+	.nav-btn,
+	.nav-btn:link,
+	.nav-btn:visited {
+		width: 0px;
+	}
+	.btn-alt-header {
+		display: inline-block;
+		border: none;
+		width: 24%;
+	}
+}
+
+.hide-text {
+	display: block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 }

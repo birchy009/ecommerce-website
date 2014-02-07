@@ -3,34 +3,31 @@ body, html {
 	padding: 0;
 }
 
-.large-bucket {
-	width: 69.5%;
-	display: inline-block;
-}
-
 .large-bucket-bg {
 	width: 100%;
 	background-color: #DDD;
 	padding: 0.75rem;
 	border-radius: 10px;
+	margin-bottom: 3rem;
+	overflow: hidden;
+}
+
+.large-bucket {
+	float: left;
 }
 
 .large-bucket p {
 	width: 100%;
-	padding: 0.5rem 0;
-	margin-top: -3rem;
+	padding: 0.75rem 0;
+	font-size: 0.75rem;
+	margin-top: -2.5rem;
 	padding-left: 1rem;
 	color: #fff;
 	position: absolute;
 }
 
-.side-bar {
-	width: 30%;
-	display: inline-block;
-}
-
-.side-image {
-	margin: 0 1%;
+.side-img {
+	display: none;
 }
 
 .small-bucket {
@@ -43,4 +40,15 @@ body, html {
 .small-bucket img,
 .small-bucket p {
 	max-width: 300px;
+}
+
+@media only screen and (min-width: 60em) {
+	.side-img {
+		display: block;
+		padding: 0.25rem 10%;
+	}
+	.large-bucket p {
+		margin-top: -3rem;
+		font-size: 1.2rem;
+	}
 }
