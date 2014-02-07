@@ -17,6 +17,7 @@ header h1 {
 	float: left;
 	margin: 0.5rem;
 	width: 5rem;
+	border-radius: 2.5rem
 }
 
 .main-title {
@@ -28,7 +29,6 @@ header h1 {
 .search {
 	display: none;
 }
-
 
 /* ----------------------------- NAV */
 
@@ -70,6 +70,10 @@ header h1 {
 	font-weight: bold;
 	width: 100%;
 	margin: 0;
+}
+
+.btn-alt-header:hover {
+	background-image: linear-gradient(to bottom, #007, #005);
 }
 
 .nav {
@@ -123,5 +127,8 @@ header h1 {
 	}
 	a:nth-child(2n+2) .btn-alt-header {
 		background-image: linear-gradient(to bottom, #00C, #00A);
+	}
+	a:nth-child(2n+2) .btn-alt-header:hover {
+		background-image: linear-gradient(to bottom, #00E, #00C);
 	}
 }

@@ -9,39 +9,43 @@ footer {
 	overflow: hidden;
 }
 
-.logo-foot {
-	float: left;
-	width: 50px;
-	margin: 0.5rem;
+.left {
+	position: absolute;
 }
 
-.menu {
+.social {
+	display: inline-block;
+	width: 35px;
+	border-radius: 25px;
+	margin: 0.5rem 0.25rem 0;
+}
+
+.nav-bottom {
 	width: 40%;
-	margin: 1.5rem auto 0;
+	margin-top: 1rem;
 	position: absolute;
 	font-size: 0.5rem;
-	left: 20%;
-	text-align: left;
+	margin-left: 30%;
 }
 
-.menu li {
+.nav-bottom li {
 	display: inline-block;
 	color: #fff;
 	margin: 0 0.75%;
 }
 
-.menu a,
-.menu a:visited,
-.menu a:active {
+.nav-bottom a,
+.nav-bottom a:visited,
+.nav-bottom a:active {
 	text-decoration: none;
 }
 
-.menu a,
-.menu a:link {
+.nav-bottom a,
+.nav-bottom a:link {
 	border-bottom: none;
 }
 
-.menu a:nth-child(1n+2):before {
+.nav-bottom a:nth-child(1n+2):before {
 	content: "|";
 	color: #000;
 	pointer-events: none;
@@ -50,24 +54,28 @@ footer {
 .right p {
 	float: right;
 	margin-right: 5%;
-	margin-top: 1.5rem;
+	margin-top: 1rem;
 	font-size: 0.5rem;
 }
 
 @media only screen and (min-width: 45em) {
-	.menu {
-		width: 100%;
-		font-size: 0.75rem
+	.nav-bottom {
+		font-size: 0.75rem;
+		margin-left: 25%;
+		margin-top: 1.5rem
 	}
 	.right p {
 		font-size: 0.75rem;
+		margin-top: 1.5rem;
+	}
+	.social {
+		margin-top: 0.75rem;
+		width: 50px;
 	}
 }
 
 @media only screen and (min-width: 60em) {
-	.menu {
-		text-align: center;
-		left: 0;
+	.nav-bottom {
 		font-size: 1rem;
 	}
 	.right p {
