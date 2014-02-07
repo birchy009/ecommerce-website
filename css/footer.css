@@ -30,8 +30,12 @@ footer {
 
 .nav-bottom li {
 	display: inline-block;
+	margin: 0 3%;
+}
+
+.nav-bottom li a {
 	color: #fff;
-	margin: 0 0.75%;
+	font-family: Helvetica, sans-serif;
 }
 
 .nav-bottom a,
@@ -45,7 +49,7 @@ footer {
 	border-bottom: none;
 }
 
-.nav-bottom a:nth-child(1n+2):before {
+.nav-bottom li:nth-child(1n+2):before {
 	content: "|";
 	color: #000;
 	pointer-events: none;
