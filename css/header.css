@@ -2,7 +2,7 @@ header {
 	padding: 0;
 	margin: 0 0 4.5rem;
 	width: 100%;
-	background-color: rgba(0,153,0,0.5);
+	background-color: rgba(0,153,0,0.75);
 	overflow: hidden;
 	display: inline-block;
 }
@@ -10,6 +10,7 @@ header {
 header h1 {
 	font-size: 1.5rem;
 	margin-top: 2rem;
+	color: #fff;
 }
 
 .logo {
@@ -25,10 +26,9 @@ header h1 {
 }
 
 .search {
-	float: right;
-	top: -1.5rem;
-	display: inline-block;
+	display: none;
 }
+
 
 /* ----------------------------- NAV */
 
@@ -42,7 +42,6 @@ header h1 {
 	height: 30px;
 	width: 30px;
 	background: transparent url(../images/nav-icon.svg) no-repeat 0 0;
-	opacity: 0.5;
 	border-bottom: none;
 }
 
@@ -51,6 +50,7 @@ header h1 {
 	display: block;
 	max-height: 0;
 	overflow: hidden;
+	font-family: Helvetica, sans-serif;
 }
 
 .nav-btn[data-state="active"] {
@@ -80,11 +80,23 @@ header h1 {
 	width: 25%;
 	right: 0;
 	padding: 0;
+	z-index: 4;
+}
+
+.search-nav {
+	background-image: linear-gradient(to bottom, #00C, #00A);
 }
 
 /* ------------------------------------------ Media queueries */
 
 @media only screen and (min-width: 60em) {
+	.search {
+		float: right;
+		display: inline-block;
+	}
+	.search-nav{
+		display: none;
+	}
 	.nav-top {
 		font-size: 1rem;
 		display: inline-block;
@@ -105,8 +117,11 @@ header h1 {
 		width: 0px;
 	}
 	.btn-alt-header {
-		display: inline-block;
+		float: left ;
 		border: none;
-		width: 24%;
+		width: 25%;
+	}
+	a:nth-child(2n+2) .btn-alt-header {
+		background-image: linear-gradient(to bottom, #00C, #00A);
 	}
 }
