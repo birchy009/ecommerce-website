@@ -22,6 +22,10 @@ body {
 	width: 100%;
 }
 
+main {
+	padding: 0 1rem;
+}
+
 .ir {
 	overflow: hidden;
 
