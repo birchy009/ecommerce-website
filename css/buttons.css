@@ -23,3 +23,7 @@
 .btn-alt:hover {
 	background-image: linear-gradient(to bottom, #700, #500);
 }
+
+.btn:hover {
+	background-image: linear-gradient(to bottom, #070, #050);
+}
