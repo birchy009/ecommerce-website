@@ -138,3 +138,18 @@ header h1 {
 		background-image: linear-gradient(to bottom, #00E, #00C);
 	}
 }
+
+.current {
+	color: red;
+}
+
+.banner {
+  background: #6e9d1b url("../images/banner.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 5em 1em 1em;
+  text-aling: center;
+}
+
+.banner h2 {
+  color: #fff;
+}
