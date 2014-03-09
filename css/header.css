@@ -1,6 +1,6 @@
 header {
 	padding: 0;
-	margin: 0 0 3rem;
+	margin: 0 0 2rem;
 	width: 100%;
 	background-color: rgba(0,153,0,0.75);
 	overflow: hidden;
@@ -63,8 +63,7 @@ header h1 {
 
 .btn-alt-header {
 	display: block;
-	background-color: #009;
-	background-image: linear-gradient(to bottom, #009, #007);
+	background-image: linear-gradient(to bottom, #900, #700);
 	color: #fff;
 	font-weight: bold;
 	width: 100%;
@@ -72,7 +71,7 @@ header h1 {
 }
 
 .btn-alt-header:hover {
-	background-image: linear-gradient(to bottom, #007, #005);
+	background-image: linear-gradient(to bottom, #700, #500);
 }
 
 .btn-alt-header a {
@@ -132,15 +131,15 @@ header h1 {
 		width: 25%;
 	}
 	.btn-alt-header:nth-child(2n+2)  {
-		background-image: linear-gradient(to bottom, #00C, #00A);
+		background-image: linear-gradient(to bottom, #C00, #A00);
 	}
 	.btn-alt-header:nth-child(2n+2):hover  {
-		background-image: linear-gradient(to bottom, #00E, #00C);
+		background-image: linear-gradient(to bottom, #E00, #C00);
 	}
 }
 
 .current {
-	background-color: white;
+	background-image: linear-gradient(to bottom, #500, #300);
 }
 
 .banner {
