@@ -6,6 +6,8 @@
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="{{page.metadesc}}">
+	<meta name="keywords" content="{{page.metakey}}">
 	<link href="http://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/buttons.css" rel="stylesheet">
@@ -41,7 +43,7 @@
 	<ul class="nav nav-top">
 		<li class="btn-alt-header {% if page.url == '/' %}current{% endif %}"><a href="{{site.baseurl}}/">Home</a></li>
 		<li class="btn-alt-header"><a href="#">Products</a></li>
-		<li class="btn-alt-header"><a href="#">Policies</a></li>
+		<li class="btn-alt-header {% if page.url == '/thank-you/' %}current{% endif %}"><a href="{{site.baseurl}}/thank-you/">Thank You (temp)</a></li>
 		<li class="btn-alt-header {% if page.url == '/about/' %}current{% endif %}"><a href="{{site.baseurl}}/about/">About</a></li>
 		<li class="btn-alt-header search-nav"><a href="#">Search</a></li>
 	</ul>

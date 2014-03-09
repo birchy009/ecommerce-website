@@ -140,7 +140,7 @@ header h1 {
 }
 
 .current {
-	color: red;
+	background-color: white;
 }
 
 .banner {
