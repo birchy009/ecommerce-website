@@ -136,6 +136,9 @@ header h1 {
 	.btn-alt-header:nth-child(2n+2):hover  {
 		background-image: linear-gradient(to bottom, #E00, #C00);
 	}
+	.btn-alt-header.current:nth-child(2n+2)  {
+		background-image: linear-gradient(to bottom, #500, #300);
+	}
 }
 
 .current {
