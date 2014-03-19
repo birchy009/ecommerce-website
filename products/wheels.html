@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h2>Wheels</h2>
+<ul>
+	{% for products in site.pages %}
+		{% if products.catagory == 'wheels' %}
+			<li>
+				<a href="{{site.baseurl}}{{products.url}}">
+					<img class="product_image" src="{{site.baseurl}}/images/{{products.image}}" alt="">
+					<h5 class="product_name">{{products.title}}</h5>
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
