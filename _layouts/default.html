@@ -30,7 +30,7 @@
 	<h1 class="main-title"><a href="{{site.baseurl}}/">Company Name</a></h1>
 
 	<div class="search">
-		<form class="search-form">
+		<form method="get" action="{{site.baseurl}}/search/" class="search-form">
 		  	<div class="search-field-container">
 		    	<input type="text" class="search-field" placeholder="Search..." />
 		  	</div>  
@@ -47,7 +47,7 @@
 				<li class="btn-sub-nav {% if page.url == '/products/wheels' %}current{% endif %}"><a href="{{sitebase.url}}/products/wheels">Wheels</a></li>
 			</ul>
 		</li>
-		<li class="btn-alt-header {% if page.url == '/thank-you/' %}current{% endif %}"><a href="{{site.baseurl}}/thank-you/">Thank You (temp)</a></li>
+		<li class="btn-alt-header {% if page.url == '/cart/' %}current{% endif %}"><a href="{{site.baseurl}}/cart/">Cart</a></li>
 		<li class="btn-alt-header {% if page.url == '/about/' %}current{% endif %}"><a href="{{site.baseurl}}/about/">About</a></li>
 		<li class="btn-alt-header search-nav"><a href="#">Search</a></li>
 	</ul>
