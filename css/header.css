@@ -159,12 +159,9 @@ header h1 {
 	height: 0;
 	padding: 0;
 	margin: 0;
+	background-image: linear-gradient(to bottom, #E00, #C00);
 }
 
 .nav-top li:hover ul {
 	height: 5rem;
-}
-
-.btn-sub-nav {
-	background-color: linear-gradient(to bottom, #300, #100);
 }
