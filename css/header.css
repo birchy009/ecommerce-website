@@ -2,7 +2,7 @@ header {
 	padding: 0;
 	margin: 0 0 2rem;
 	width: 100%;
-	background-color: rgba(0,153,0,0.75);
+	background-color: black;
 	overflow: hidden;
 	display: inline-block;
 }
@@ -63,7 +63,7 @@ header h1 {
 
 .btn-alt-header {
 	display: block;
-	background-image: linear-gradient(to bottom, #900, #700);
+	background-image: linear-gradient(to bottom, #009, #007);
 	color: #fff;
 	font-weight: bold;
 	width: 100%;
@@ -71,7 +71,7 @@ header h1 {
 }
 
 .btn-alt-header:hover {
-	background-image: linear-gradient(to bottom, #700, #500);
+	background-image: linear-gradient(to bottom, #007, #005);
 }
 
 .btn-alt-header a {
@@ -131,35 +131,35 @@ header h1 {
 		width: 25%;
 	}
 	.btn-alt-header:nth-child(2n+2)  {
-		background-image: linear-gradient(to bottom, #C00, #A00);
+		background-image: linear-gradient(to bottom, #00C, #00A);
 	}
 	.btn-alt-header:nth-child(2n+2):hover  {
-		background-image: linear-gradient(to bottom, #E00, #C00);
+		background-image: linear-gradient(to bottom, #00E, #00C);
 	}
 	.btn-alt-header.current:nth-child(2n+2)  {
-		background-image: linear-gradient(to bottom, #500, #300);
+		background-image: linear-gradient(to bottom, #005, #003);
 	}
 }
 
 .current {
-	background-image: linear-gradient(to bottom, #500, #300);
+	background-image: linear-gradient(to bottom, #005, #003);
 }
 
 .banner {
-  background: #6e9d1b url("../images/banner.jpg") no-repeat center center;
+  background: #FFF url("../images/banner1.jpg") no-repeat center center;
   background-size: cover;
-  padding: 5em 1em 1em;
+  padding: 5.5em 1em 0.5em;
 }
 
 .banner h2 {
-  color: #fff;
+  color: #000;
 }
 
 .nav-top li ul {
 	height: 0;
 	padding: 0;
 	margin: 0;
-	background-image: linear-gradient(to bottom, #E00, #C00);
+	background-image: linear-gradient(to bottom, #00E, #00C);
 }
 
 .nav-top li:hover ul {

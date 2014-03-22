@@ -2,12 +2,13 @@
 <html lang="en-ca">
 <head>
 	<meta charset="utf-8">
-	<title>{{page.toptitle}} · Bikes 'n Stuff</title>
+	<title>{{page.toptitle}} · David's Bike Shop</title>
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta name="description" content="{{page.metadesc}}">
 	<meta name="keywords" content="{{page.metakey}}">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 	<link href="{{site.baseurl}}/css/buttons.css" rel="stylesheet">
@@ -25,9 +26,9 @@
 <body>
 
 <header>
-	<img class="logo" src="http://placehold.it/100x100" alt="logo">
+	<img class="logo" src="{{sitemap.url}}/images/logo.svg" alt="logo">
 	
-	<h1 class="main-title"><a href="{{site.baseurl}}/">Company Name</a></h1>
+	<h1 class="main-title"><a href="{{site.baseurl}}/">David's Bike Shop</a></h1>
 
 	<div class="search">
 		<form method="get" action="{{site.baseurl}}/search/" class="search-form">
@@ -64,18 +65,18 @@
 
 <footer>
 	<div class="left">
-		<img class="social" src="http://placehold.it/100x100&text=Logo" alt="">
-		<img class="social" src="http://placehold.it/100x100&text=Logo" alt="">
-		<img class="social" src="http://placehold.it/100x100&text=Logo" alt="">
+		<a href="#" class="social" rel="external"><i class="fa fa-facebook-square fa-2x social"></i></a>
+		<a href="#" class="social" rel="external"><i class="fa fa-twitter-square fa-2x"></i></a>
+		<a href="#" class="social" rel="external"><i class="fa fa-youtube-square fa-2x"></i></a>
 	</div>
 	<ul class="nav-bottom">
 		<li><a href="{{site.baseurl}}/">Home</a></li>
-		<li><a href="#">Products</a></li>
-		<li><a href="#">Policies</a></li>
+		<li><a href="{{site.baseurl}}/products/">Products</a></li>
+		<li><a href="{{site.baseurl}}/cart/">Cart</a></li>
 		<li><a href="{{site.baseurl}}/about/">About</a></li>
 	</ul>
 	<div class="right">
-		<p>© Company Name 2014</p>
+		<p>© David's Bike Shop</p>
 	</div>
 </footer>
   
