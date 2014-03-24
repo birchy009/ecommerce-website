@@ -1,6 +1,6 @@
 header {
 	padding: 0;
-	margin: 0 0 2rem;
+	margin: 0;
 	width: 100%;
 	background-color: black;
 	overflow: hidden;
@@ -8,27 +8,30 @@ header {
 }
 
 header h1 {
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	margin-top: 2rem;
 	color: #fff;
+	z-index: 0;
 }
 
 .logo {
 	float: left;
 	margin: 0.5rem;
 	width: 5rem;
-	border-radius: 2.5rem
+	border-radius: 2.5rem;
+	z-index: 5;
 }
 
 .main-title {
 	width: 100%;
 	position: absolute;
 	text-align: center;
+	z-index: 0;
 }
 
-.search {
+/*.search {
 	display: none;
-}
+}*/
 
 /* ----------------------------- NAV */
 
@@ -92,20 +95,52 @@ header h1 {
 	z-index: 4;
 }
 
-.search-nav {
+/*.search-nav {
 	background-image: linear-gradient(to bottom, #00C, #00A);
+}*/
+
+.nav-icons {
+	position: absolute;
+	width: 25%;
+	text-align: right;
+	right: 0;
+	margin: 0 1% 0 0;
+	padding: 0;
+}
+
+.fa {
+	float: right;
+	display: inline-block;
+	margin: 0;
+	padding: 2.25rem 1.5%;
+}
+
+.fa-2x {
+	font-size: 1em;
 }
 
 /* ------------------------------------------ Media queueries */
 
+@media only screen and (min-width: 30em) {
+	.fa-2x {
+		font-size: 1.5em;
+	}
+	.fa {
+		padding: 2rem 2%;
+	}
+	.nav-icons {
+		width: 30%;
+	}
+}
+
 @media only screen and (min-width: 60em) {
-	.search {
+	/*.search {
 		float: right;
 		display: inline-block;
 	}
 	.search-nav{
 		display: none;
-	}
+	}*/
 	.nav-top {
 		font-size: 1rem;
 		display: inline-block;
@@ -139,10 +174,24 @@ header h1 {
 	.btn-alt-header.current:nth-child(2n+2)  {
 		background-image: linear-gradient(to bottom, #005, #003);
 	}
+	.fa-2x {
+		font-size: 2em;
+	}
+	.nav-icons {
+		margin-top: 0.5rem;
+		width: 25%;
+	}
+	.fa {
+		padding: 1.5rem 3%;
+	}
 }
 
-.current {
+/*.current {
 	background-image: linear-gradient(to bottom, #005, #003);
+}*/
+
+.current {
+	color: red;
 }
 
 .banner {

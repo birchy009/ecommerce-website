@@ -6,6 +6,8 @@ footer {
 
 .left {
 	position: absolute;
+	margin-left: 2%;
+	z-index: 5;
 }
 
 .social {
@@ -15,16 +17,17 @@ footer {
 }
 
 .nav-bottom {
-	width: 40%;
+	width: 100%;
+	text-align: center;
 	margin-top: 1rem;
 	position: absolute;
 	font-size: 0.5rem;
-	margin-left: 30%;
+	z-index: 0;
 }
 
 .nav-bottom li {
 	display: inline-block;
-	margin: 0 3%;
+	margin: 0 1%;
 }
 
 .nav-bottom li a {
@@ -54,12 +57,12 @@ footer {
 	margin-right: 5%;
 	margin-top: 1rem;
 	font-size: 0.5rem;
+	color: #fff;
 }
 
 @media only screen and (min-width: 45em) {
 	.nav-bottom {
 		font-size: 0.75rem;
-		margin-left: 25%;
 		margin-top: 1.5rem
 	}
 	.right p {

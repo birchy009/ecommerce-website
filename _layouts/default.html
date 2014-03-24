@@ -26,19 +26,27 @@
 <body>
 
 <header>
-	<img class="logo" src="{{sitemap.url}}/images/logo.svg" alt="logo">
+	<a href="{{site.baseurl}}/" class="front"><img class="logo" src="{{sitemap.url}}/images/logo.svg" alt="logo"></a>
 	
-	<h1 class="main-title"><a href="{{site.baseurl}}/">David's Bike Shop</a></h1>
+	<h1 class="main-title"><a href="{{site.baseurl}}/" class="back">David's Bike Shop</a></h1>
 
-	<div class="search">
-		<form method="get" action="{{site.baseurl}}/search/" class="search-form">
-		  	<div class="search-field-container">
-		    	<input type="text" class="search-field" placeholder="Search..." />
-		  	</div>  
-		</form>
-	</div>
+	<ul class="nav-icons">
+		<li><a href="{{site.baseurl}}/search/"><i class="fa fa-search fa-2x {% if page.url == '/search/' %}current{% endif %}"><span class="hide-text">Search</span>
+			<!--<div class="search">
+				<form method="get" action="{{site.baseurl}}/search/" class="search-form">
+				  	<div class="search-field-container">
+				    	<input type="text" class="search-field" placeholder="Search..." />
+				  	</div>  
+				</form>
+			</div>-->
+		</i></a></li>
+		<li><a href="{{site.baseurl}}/about/"><i class="fa fa-question-circle fa-2x {% if page.url == '/about/' %}current{% endif %}"><span class="hide-text">About</span></i></a></li>
+		<li><a href="{{site.baseurl}}/cart/"><i class="fa fa-shopping-cart fa-2x {% if page.url == '/cart/' %}current{% endif %}"><span class="hide-text">Cart</span></i></a></li>
+		<li><a href="{{site.baseurl}}/products/"><i class="fa fa-exclamation-circle fa-2x {% if page.url == '/products/' %}current{% endif %}"><span class="hide-text">Products</span></i></a></li>
+		<li><a href="{{site.baseurl}}/"><i class="fa fa-home fa-2x {% if page.url == '/' %}current{% endif %}"><span class="hide-text">Home</span></i></a></li>
+	</ul>
 
-	<a class="nav-btn hide-text" href="">Navigation</a>
+	<!--<a class="nav-btn hide-text" href="">Navigation</a>
 
 	<ul class="nav nav-top">
 		<li class="btn-alt-header {% if page.url == '/' %}current{% endif %}"><a href="{{site.baseurl}}/">Home</a></li>
@@ -51,7 +59,7 @@
 		<li class="btn-alt-header {% if page.url == '/cart/' %}current{% endif %}"><a href="{{site.baseurl}}/cart/">Cart</a></li>
 		<li class="btn-alt-header {% if page.url == '/about/' %}current{% endif %}"><a href="{{site.baseurl}}/about/">About</a></li>
 		<li class="btn-alt-header search-nav"><a href="#">Search</a></li>
-	</ul>
+	</ul>-->
 
 </header>
 

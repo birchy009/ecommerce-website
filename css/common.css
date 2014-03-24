@@ -48,4 +48,6 @@ main {
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
+	height: 0;
+	width: 0;
 }
