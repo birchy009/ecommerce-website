@@ -31,14 +31,14 @@
 	<h1 class="main-title"><a href="{{site.baseurl}}/" class="back">David's Bike Shop</a></h1>
 
 	<ul class="nav-icons">
-		<li><a href="{{site.baseurl}}/search/"><i class="fa fa-search fa-2x {% if page.url == '/search/' %}current{% endif %}"><span class="hide-text">Search</span>
-			<!--<div class="search">
+		<li><a class="nav-btn" href=""><i class="fa fa-search fa-2x {% if page.url == '/search/' %}current{% endif %}"><span class="hide-text">Search</span>
+			<div class="search nav-top">
 				<form method="get" action="{{site.baseurl}}/search/" class="search-form">
 				  	<div class="search-field-container">
 				    	<input type="text" class="search-field" placeholder="Search..." />
 				  	</div>  
 				</form>
-			</div>-->
+			</div>
 		</i></a></li>
 		<li><a href="{{site.baseurl}}/about/"><i class="fa fa-question-circle fa-2x {% if page.url == '/about/' %}current{% endif %}"><span class="hide-text">About</span></i></a></li>
 		<li><a href="{{site.baseurl}}/cart/"><i class="fa fa-shopping-cart fa-2x {% if page.url == '/cart/' %}current{% endif %}"><span class="hide-text">Cart</span></i></a></li>
@@ -87,6 +87,8 @@
 		<p>© David's Bike Shop</p>
 	</div>
 </footer>
+
+<script src="js/nav.js"></script>
   
 </body>
 </html>
