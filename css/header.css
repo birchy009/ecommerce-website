@@ -108,24 +108,24 @@ header h1 {
 	padding: 0;
 }
 
-.fa {
+header .fa {
 	float: right;
 	display: inline-block;
 	margin: 0;
 	padding: 2.25rem 1.5%;
 }
 
-.fa-2x {
+header .fa-2x {
 	font-size: 1em;
 }
 
 /* ------------------------------------------ Media queueries */
 
 @media only screen and (min-width: 30em) {
-	.fa-2x {
+	header .fa-2x {
 		font-size: 1.5em;
 	}
-	.fa {
+	header .fa {
 		padding: 2rem 2%;
 	}
 	.nav-icons {
@@ -174,14 +174,14 @@ header h1 {
 	.btn-alt-header.current:nth-child(2n+2)  {
 		background-image: linear-gradient(to bottom, #005, #003);
 	}
-	.fa-2x {
+	header .fa-2x {
 		font-size: 2em;
 	}
 	.nav-icons {
 		margin-top: 0.5rem;
 		width: 25%;
 	}
-	.fa {
+	header .fa {
 		padding: 1.5rem 3%;
 	}
 }

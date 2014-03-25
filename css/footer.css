@@ -8,18 +8,20 @@ footer {
 	position: absolute;
 	margin-left: 2%;
 	z-index: 5;
+	margin-top: 1rem;
+	width: 40%;
 }
 
 .social {
 	display: inline-block;
 	width: 35px;
-	margin: 1rem 0.25rem 0;
+	margin: 0 1% 0;
 }
 
 .nav-bottom {
 	width: 100%;
 	text-align: center;
-	margin-top: 1rem;
+	margin-top: 1.5rem;
 	position: absolute;
 	font-size: 0.5rem;
 	z-index: 0;
@@ -27,7 +29,7 @@ footer {
 
 .nav-bottom li {
 	display: inline-block;
-	margin: 0 1%;
+	margin: 0 1.5%;
 }
 
 .nav-bottom li a {
@@ -48,19 +50,19 @@ footer {
 
 .nav-bottom li:nth-child(1n+2):before {
 	content: "|";
-	color: #000;
+	color: #FFF;
 	pointer-events: none;
 }
 
 .right p {
 	float: right;
 	margin-right: 5%;
-	margin-top: 1rem;
+	margin-top: 1.5rem;
 	font-size: 0.5rem;
 	color: #fff;
 }
 
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 30em) {
 	.nav-bottom {
 		font-size: 0.75rem;
 		margin-top: 1.5rem
@@ -70,8 +72,10 @@ footer {
 		margin-top: 1.5rem;
 	}
 	.social {
-		margin-top: 0.75rem;
 		width: 50px;
+	}
+	.left {
+		margin-top: 1rem;
 	}
 }
 
