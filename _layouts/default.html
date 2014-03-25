@@ -26,12 +26,12 @@
 <body>
 
 <header>
-	<a href="{{site.baseurl}}/" class="front"><img class="logo" src="{{site.baseurl}}/images/logo.svg" alt="logo"></a>
+	<a href="{{site.baseurl}}/" class="front"><img class="logo" src="{{site.baseurl}}/images/logo.svg" alt="David's Bike Shop logo"></a>
 	
 	<h1 class="main-title"><a href="{{site.baseurl}}/" class="back">David's Bike Shop</a></h1>
 
 	<ul class="nav-icons">
-		<li><a class="nav-btn" href=""><i class="fa fa-search fa-2x {% if page.url == '/search/' %}current{% endif %}"><span class="hide-text">Search</span>
+		<li><a class="nav-btn" href=""><i alt="Search" class="fa fa-search fa-2x {% if page.url == '/search/' %}current{% endif %}"><span class="hide-text">Search</span>
 			<div class="search nav-top">
 				<form method="get" action="{{site.baseurl}}/search/" class="search-form">
 				  	<div class="search-field-container">
@@ -40,10 +40,10 @@
 				</form>
 			</div>
 		</i></a></li>
-		<li><a href="{{site.baseurl}}/about/"><i class="fa fa-question-circle fa-2x {% if page.url == '/about/' %}current{% endif %}"><span class="hide-text">About</span></i></a></li>
-		<li><a href="{{site.baseurl}}/cart/"><i class="fa fa-shopping-cart fa-2x {% if page.url == '/cart/' %}current{% endif %}"><span class="hide-text">Cart</span></i></a></li>
-		<li><a href="{{site.baseurl}}/products/"><i class="fa fa-exclamation-circle fa-2x {% if page.url == '/products/' %}current{% endif %}"><span class="hide-text">Products</span></i></a></li>
-		<li><a href="{{site.baseurl}}/"><i class="fa fa-home fa-2x {% if page.url == '/' %}current{% endif %}"><span class="hide-text">Home</span></i></a></li>
+		<li><a href="{{site.baseurl}}/about/"><i alt="About" class="fa fa-question-circle fa-2x {% if page.url == '/about/' %}current{% endif %}"><span class="hide-text">About</span></i></a></li>
+		<li><a href="{{site.baseurl}}/cart/"><i alt="Cart" class="fa fa-shopping-cart fa-2x {% if page.url == '/cart/' %}current{% endif %}"><span class="hide-text">Cart</span></i></a></li>
+		<li><a href="{{site.baseurl}}/products/"><i alt="Products" class="fa fa-exclamation-circle fa-2x {% if page.url == '/products/' %}current{% endif %}"><span class="hide-text">Products</span></i></a></li>
+		<li><a href="{{site.baseurl}}/"><i alt="Home" class="fa fa-home fa-2x {% if page.url == '/' %}current{% endif %}"><span class="hide-text">Home</span></i></a></li>
 	</ul>
 
 	<!--<a class="nav-btn hide-text" href="">Navigation</a>
@@ -88,7 +88,7 @@
 	</div>
 </footer>
 
-<script src="js/nav.js"></script>
+<script src="{{site.baseurl}}/js/nav.js"></script>
   
 </body>
 </html>

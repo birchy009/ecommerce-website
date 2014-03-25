@@ -35,19 +35,15 @@ header h1 {
 .nav-btn:link,
 .nav-btn:visited {
 	overflow: hidden;
-	border-bottom: none;
 }
 
 .nav-top {
 	position: absolute;
 	margin-top: 2rem;
 	right: 0;
-	display: block;
-	text-align: center;
+	display: none;
 	background-color: #333;
-	max-height: 0;
 	overflow: hidden;
-	z-index: 101;
 }
 
 .nav-btn[data-state="active"] {
@@ -56,33 +52,12 @@ header h1 {
 
 .nav-top[data-state="expanded"] {
 	padding: 5%;
-	max-height: 10rem;
-}
-
-.btn-alt-header {
 	display: block;
-	background-image: linear-gradient(to bottom, #009, #007);
-	color: #fff;
-	font-weight: bold;
-	width: 100%;
-	margin: 0;
-}
-
-.btn-alt-header:hover {
-	background-image: linear-gradient(to bottom, #007, #005);
-}
-
-.btn-alt-header a {
-	display: block;
-	border-bottom: 0;
-	padding: 0.5rem 1rem;
-	color: #fff;
 }
 
 .nav {
 	display: block;
 	position: absolute;
-	text-align: center;
 	top: 6rem;
 	width: 25%;
 	right: 0;
@@ -93,7 +68,6 @@ header h1 {
 .nav-icons {
 	position: absolute;
 	width: 25%;
-	text-align: right;
 	right: 0;
 	margin: 0 1% 0 0;
 	padding: 0;
@@ -129,20 +103,6 @@ header .fa-2x {
 		font-size: 3rem;
 		margin-top: 0.75rem;
 	}
-	.btn-alt-header {
-		float: left ;
-		border: none;
-		width: 25%;
-	}
-	.btn-alt-header:nth-child(2n+2)  {
-		background-image: linear-gradient(to bottom, #00C, #00A);
-	}
-	.btn-alt-header:nth-child(2n+2):hover  {
-		background-image: linear-gradient(to bottom, #00E, #00C);
-	}
-	.btn-alt-header.current:nth-child(2n+2)  {
-		background-image: linear-gradient(to bottom, #005, #003);
-	}
 	header .fa-2x {
 		font-size: 2em;
 	}
@@ -156,7 +116,7 @@ header .fa-2x {
 }
 
 .current {
-	color: red;
+	color: #900;
 }
 
 .banner {
