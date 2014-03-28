@@ -24,3 +24,17 @@
 .media-body p {
 	margin: 0;
 }
+
+.cart-price {
+	font-family: Helvetica, sans-serif;
+	font-size: 1.5rem;
+	float: right;
+}
+
+.cart-totals {
+	margin-top: 1rem;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.5rem;
+	text-align: right;
+	width: 90%;
+}

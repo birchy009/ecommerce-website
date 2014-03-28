@@ -23,3 +23,9 @@
 .btn:hover {
 	background-image: linear-gradient(to bottom, #A00, #900);
 }
+
+.checkout-1 {
+	float: right;
+	margin: 1rem 0;
+	margin-right: 10%;
+}

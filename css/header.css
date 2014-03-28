@@ -84,6 +84,18 @@ header .fa-2x {
 	font-size: 1em;
 }
 
+.searching {
+	background-color: #090;
+	height: 3rem;
+}
+
+.search2 {
+	padding-top: 0.25rem;
+	margin-right: 1%;
+	width: 15%;
+	float: right;
+}
+
 /* ------------------------------------------ Media queueries */
 
 @media only screen and (min-width: 30em) {

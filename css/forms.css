@@ -47,3 +47,17 @@
 	width: 100%;
 	padding: 2rem;
 }
+
+.cart {
+	background-color: #999;
+	border-radius: 25px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.cart-item {
+	max-width: 150px;
+	float: left;
+	margin-right: 2.5%;
+	margin-top: 1rem;
+}
