@@ -29,7 +29,7 @@ footer {
 
 .nav-bottom li {
 	display: inline-block;
-	margin: 0 1.5%;
+	margin: 0 1%;
 }
 
 .nav-bottom li a {
@@ -51,6 +51,7 @@ footer {
 .nav-bottom li:nth-child(1n+2):before {
 	content: "|";
 	color: #FFF;
+	margin-left: 5%;
 	pointer-events: none;
 }
 
