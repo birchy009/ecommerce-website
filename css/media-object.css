@@ -25,6 +25,10 @@
 	margin: 0;
 }
 
+.cart {
+	margin-top: 1.5rem;
+}
+
 .cart-price {
 	font-family: Helvetica, sans-serif;
 	font-size: 1.5rem;
