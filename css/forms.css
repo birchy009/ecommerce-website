@@ -61,3 +61,15 @@
 	margin-right: 2.5%;
 	margin-top: 1rem;
 }
+
+.searching {
+	background-color: #090;
+	height: 3rem;
+}
+
+.search2 {
+	padding-top: 0.25rem;
+	margin-right: 1%;
+	width: 25%;
+	float: right;
+}

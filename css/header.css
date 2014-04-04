@@ -60,7 +60,6 @@ header h1 {
 	display: block;
 	position: absolute;
 	top: 6rem;
-	width: 25%;
 	right: 0;
 	padding: 0;
 	z-index: 4;
@@ -83,18 +82,6 @@ header .fa {
 
 header .fa-2x {
 	font-size: 1em;
-}
-
-.searching {
-	background-color: #090;
-	height: 3rem;
-}
-
-.search2 {
-	padding-top: 0.25rem;
-	margin-right: 1%;
-	width: 15%;
-	float: right;
 }
 
 /* ------------------------------------------ Media queueries */
