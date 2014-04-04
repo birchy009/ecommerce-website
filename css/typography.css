@@ -151,6 +151,23 @@ a:active {
 	color: rgba(255,255,255,0.75);
 }
 
+a:hover,
+a:active {
+	/*Its okay to remove the focus rectangle for mouse states*/
+	outline: none;
+}
+
+a:focus,
+input:focus,
+button:focus {
+	/*The focus rectangle MUST ALWAYS be visible for keyboard states*/
+	outline: 3px solid #E00;
+}
+
+.block-link {
+	display: block;
+}
+
 ul {
 	list-style-type: none;
 }

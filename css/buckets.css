@@ -12,7 +12,7 @@ body, html {
 
 .large-bucket p {
 	width: 100%;
-	padding: 0.5rem 0;
+	padding: 0.75rem 0;
 	font-size: 0.75rem;
 	padding-left: 1rem;
 	bottom: 0;
@@ -22,6 +22,27 @@ body, html {
 	position: absolute;
 	background-color: rgba(255,255,255,0.5);
 	font-family: Helvetica, sans-serif;
+}
+
+.promo-large {
+	padding-top: 10rem;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	-webkit-transition: padding-top 500ms linear;
+}
+
+
+@media only screen and (min-width: 30em) {
+	.promo-large {
+		padding-top: 20rem;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+	.promo-large {
+		padding-top: 35rem;
+	}
 }
 
 .side-img {
