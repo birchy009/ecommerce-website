@@ -3,12 +3,12 @@
 User testing was conducted by {David} on {04/04/14} between the times of {15:45} and {17:00} with the following participants:
 
 Tab
-- {}
+- {David Birch}
 - {}
 - {}
 Voice Over
 - {Sebastian Nadeau}
-- {}
+- {David Birch}
 - {}
 
 ## Tasks
@@ -26,17 +26,14 @@ Voice Over
 - {Only completed the about page task}
 - {noticed the nav options werent named}
 
-### {}
+### {David Birch Tab}
 
-- {He completed the task as expected…}
-- {He had troubles completing a specific task…}
-- etc.
+- {Completed the tasks easy enough}
 
-### {}
+### {David Birch VO}
 
-- {They completed the task as expected…}
-- {They had troubles completing a specific task…}
-- etc.
+- {Found it difficult to navigate through the navigation menu}
+- {The products themselves werent being called out}
 
 ### {}
 
@@ -62,15 +59,13 @@ Voice Over
 
 ### Critical, Needs Fixing, Unable to Complete
 
-- {All participants had this problem…}
-- etc.
+- {Product names called out on voiceover}
+- {Navigation menu needs to be voiced out}
 
 ### Serious, Causes Frustration, May Hinder Completion
 
-- {Two of the participants succeeded where one of them failed…}
-- etc.
+- {}
 
 ### Minor, Annoying, Won’t Hinder Completion
 
-- {Participants pointed out this inconsistency…}
-- etc.
+- {}
