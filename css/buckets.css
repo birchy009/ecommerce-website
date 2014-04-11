@@ -25,6 +25,15 @@ body, html {
 	font-family: Helvetica, sans-serif;
 }
 
+.promo-small {
+	background-color: #060;
+	color: #fff;
+}
+
+.promo-small h4 {
+	color: #fff;
+}
+
 .promo-large {
 	padding-top: 10rem;
 	background-repeat: no-repeat;
@@ -54,7 +63,6 @@ body, html {
 }
 
 .small-bucket {
-	background-color: #DDD;
 	max-width: 300px;
 	padding: 0.75rem;
 	border-radius: 10px;

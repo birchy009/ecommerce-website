@@ -3,8 +3,8 @@
 .btn:visited {
 	display: inline-block;
 	padding: 0.75em 1em;
-	background-color: #009;
-	background-image: linear-gradient(to bottom, #009, #007);
+	background-color: #000;
+	background-image: linear-gradient(to bottom, #000, #111);
 	border-radius: 6px;
 	box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 	border: 0;
@@ -21,7 +21,11 @@
 }
 
 .btn:hover {
-	background-image: linear-gradient(to bottom, #A00, #900);
+	background-image: linear-gradient(to bottom, #000, #555);
+}
+
+.btn-alt:hover {
+	background-image: linear-gradient(to bottom, #900, #C00);
 }
 
 .checkout-1 {
