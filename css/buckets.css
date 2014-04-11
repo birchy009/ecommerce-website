@@ -18,9 +18,10 @@ body, html {
 	bottom: 0;
 	margin:0;
 	margin-bottom: 0.75rem;
-	color: #fff;
+	color: #000;
+	font-weight: 800;
 	position: absolute;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.75);
 	font-family: Helvetica, sans-serif;
 }
 
@@ -29,6 +30,9 @@ body, html {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+	-moz-transition: padding-top 500ms linear;
+	-ms-transition: padding-top 500ms linear;
+	transition: padding-top 500ms linear;
 	-webkit-transition: padding-top 500ms linear;
 }
 

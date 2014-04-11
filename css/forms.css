@@ -35,10 +35,9 @@
 }
 
 .searched {
-	max-width: 300px;
+	max-width: 250px;
 	float: left;
 	margin-right: 2.5%;
-	margin-top: 1rem;
 }
 
 .search-list {
